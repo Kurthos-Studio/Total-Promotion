@@ -13,6 +13,6 @@ The game can be played [here](https://kurthos-studio.itch.io/total-promotion).
 ## License
 
 * **Author:** Thomas Steinert
-* **License:** CC0 1.0
+* **License:** MIT
 
 If you use material from this project that has been made by me, I am grateful about a notification, so I can see my work blossom. This is optional.

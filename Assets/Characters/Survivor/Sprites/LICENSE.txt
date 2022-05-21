@@ -1,0 +1,8 @@
+All files below this directory are licensed by the following license.
+
+Author: Riley Gombart
+Source: https://opengameart.org/content/animated-top-down-survivor-player
+License: CC-BY 3.0
+Url: https://creativecommons.org/licenses/by/3.0/
+
+Changes: No changes.
