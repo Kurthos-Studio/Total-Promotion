@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class CharacterProfile : MonoBehaviour
 {
+    public bool IsPlayer;
+
     private int healthpoints;
     [SerializeField]
     private int rankNumber;
@@ -67,8 +69,11 @@ public class CharacterProfile : MonoBehaviour
         tagText.text = rank.GetTag();
         tagText.color = rank.Color;
 
-        EventManager.TriggerTypedEvent("UpdatePlayerRank", new CustomEventData(rank.Label));
-        EventManager.TriggerTypedEvent("UpdatePlayerHealth", new CustomEventData(healthpoints));
+        if (IsPlayer)
+        {
+            EventManager.TriggerTypedEvent("UpdatePlayerRank", new CustomEventData(rank.Label));
+            EventManager.TriggerTypedEvent("UpdatePlayerHealth", new CustomEventData(healthpoints));
+        } 
     }
 
     public void Promote()

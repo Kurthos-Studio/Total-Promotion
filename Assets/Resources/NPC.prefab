@@ -657,6 +657,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24cd433cd40e190439e0f98a04b45ebc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  IsPlayer: 0
   rankNumber: 2
 --- !u!114 &4977828625585316507
 MonoBehaviour:
@@ -670,6 +671,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76476ec71e055e946bcdebc2abec0eb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  IsOnPlayer: 0
+  CurrentAmmo: 0
 --- !u!195 &6668023911209797281
 NavMeshAgent:
   m_ObjectHideFlags: 0
