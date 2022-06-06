@@ -31,7 +31,7 @@ public class CharacterMovement : MonoBehaviour
 
     private void Movement()
     {
-        rigidbody.AddRelativeForce(spriteTransform.rotation * acceleration);
+        rigidbody.AddRelativeForce(acceleration);
         animator.SetFloat("Acceleration", acceleration.magnitude);
     }
 
